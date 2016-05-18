@@ -1,0 +1,37 @@
+{
+  "name": "typecheck-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "compile": "webpack",
+    "serve": "browser-sync start --server --ss ./dist",
+    "watch": "webpack --watch --progress",
+    "dev": "run-p watch serve",
+    "prod": "run-s compile serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-plugin-typecheck": "^3.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.9.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "backbone": "^1.3.3",
+    "backbone-validation": "^0.11.5",
+    "browser-sync": "^2.12.8",
+    "expose-loader": "^0.7.1",
+    "file-loader": "^0.8.5",
+    "imports-loader": "^0.6.5",
+    "lodash": "^4.12.0",
+    "npm-run-all": "^2.1.0",
+    "webpack": "^1.13.0"
+  }
+}

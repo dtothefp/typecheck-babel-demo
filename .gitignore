@@ -1,0 +1,20 @@
+#DUHH
+.DS_Store
+.eslintrc
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Compiled
+dist
+
+# Dependency directory
+node_modules
+
+.idea/*
+
+# emacs backup files
+*~
+
